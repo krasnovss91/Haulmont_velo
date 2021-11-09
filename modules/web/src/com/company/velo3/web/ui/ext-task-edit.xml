@@ -6,7 +6,7 @@
         messagesPack="com.company.velo3.web.ui">
     <dsContext>
         <datasource id="cardsDs" class="com.company.velo3.entity.ExTask"/>
-        <collectionDatasource id="veloDetailsDs" class="com.company.velo3.entity.VeloDetail" view="_minimal">
+        <collectionDatasource id="veloDetailsDs" class="com.company.velo3.entity.VeloDetail" view="_local">
             <query>
                 <![CDATA[select e from velo3$VeloDetail e]]>
             </query>
@@ -27,7 +27,7 @@
                                         <rows>
                                             <row>
                                                 <label id="amountLabel" value="msg://amount"/>
-                                                <textField id="amount" datasource="cardDs"
+                                                <textField id="amount" datasource="cardsDs"
                                                            property="amount" width="250px"/>
                                             </row>
                                             <row>
@@ -36,7 +36,7 @@
                                               <!--  <textField id="amount" datasource="cardDs"
                                                 property="amount" width="250px"/>  -->
 
-                                                <lookupPickerField id="veloDetail" datasource="cardDs"
+                                                <lookupPickerField id="veloDetail" datasource="cardsDs"
                                                                    optionsDatasource="veloDetailsDs"
                                                                    property="veloDetail" width="250px"/>
                                             </row>
