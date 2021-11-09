@@ -26,7 +26,16 @@
                                     <!--    <columns></columns> -->
                                         <rows>
                                             <row>
+                                                <label id="amountLabel" value="msg://amount"/>
+                                                <textField id="amount" datasource="cardDs"
+                                                           property="amount" width="250px"/>
+                                            </row>
+                                            <row>
                                                 <label id="veloDetailLabel" value="msg://veloDetail"/>
+                                                <!--растащить по разным row -->
+                                              <!--  <textField id="amount" datasource="cardDs"
+                                                property="amount" width="250px"/>  -->
+
                                                 <lookupPickerField id="veloDetail" datasource="cardDs"
                                                                    optionsDatasource="veloDetailsDs"
                                                                    property="veloDetail" width="250px"/>

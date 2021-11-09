@@ -8,7 +8,7 @@
         <datasource id="cardsDs" class="com.company.velo3.entity.ExTask"/>
         <collectionDatasource id="veloDetailsDs" class="com.company.velo3.entity.VeloDetail" view="_minimal">
             <query>
-                <![CDATA[select e from velo3VeloDetail e]]>
+                <![CDATA[select e from velo3$VeloDetail e]]>
             </query>
         </collectionDatasource>
     </dsContext>
@@ -26,10 +26,19 @@
                                     <!--    <columns></columns> -->
                                         <rows>
                                             <row>
+                                                <label id="amountLabel" value="msg://amount"/>
+                                                <textField id="amount" datasource="cardDs"
+                                                           property="amount" width="250px"/>
+                                            </row>
+                                            <row>
                                                 <label id="veloDetailLabel" value="msg://veloDetail"/>
+                                                <!--растащить по разным row -->
+                                              <!--  <textField id="amount" datasource="cardDs"
+                                                property="amount" width="250px"/>  -->
+
                                                 <lookupPickerField id="veloDetail" datasource="cardDs"
                                                                    optionsDatasource="veloDetailsDs"
-                                                                   property="veloDetail" width="100%"/>
+                                                                   property="veloDetail" width="250px"/>
                                             </row>
                                         </rows>
                                     </grid>

@@ -17,7 +17,9 @@
                             <action id="refresh"></action>
                         </actions>
                         <columns>
+                            <column id="amount" caption="msg://amount"></column>
                             <column id="veloDetail" caption="msg://veloDetail"></column>
+                            <column id="totalCost" caption="msg://totalCost"></column>
                         </columns>
                         <rows/>
                     </groupTable>
