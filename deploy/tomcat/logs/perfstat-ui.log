@@ -606,3 +606,149 @@ mainWindow.voiceControlConsole#load                     47,0          47        
 voiceControlConsole#create                              75,0          75          75         0,0           1
 voiceControlConsole#xml                                  1,0           1           1         0,0           1
 
+Performance Statistics   2021-11-09 16:02:00 - 2021-11-09 16:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     127,0         127         127         0,0           1
+loginWindow#init                                        57,0          57          57         0,0           1
+loginWindow#inject                                      89,0          89          89         0,0           1
+loginWindow#load                                       684,0         684         684         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                          5,5           0          11         5,5           2
+
+Performance Statistics   2021-11-09 16:04:00 - 2021-11-09 16:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         31,5          31          32         0,5           2
+MenuItem.velo3$VeloDetail.browse                      1904,0        1904        1904         0,0           1
+TDS null                                                49,5          31          68        18,5           2
+mainWindow#afterShow                                     6,0           6           6         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       11,0          11          11         0,0           1
+mainWindow#init                                        226,0         226         226         0,0           1
+mainWindow#inject                                       19,0          19          19         0,0           1
+mainWindow#load                                       1838,0        1838        1838         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,5           0           3         1,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
+mainWindow.voiceControlConsole#load                     52,0          52          52         0,0           1
+velo3$VeloDetail.browse#afterShow                        0,0           0           0         0,0           1
+velo3$VeloDetail.browse#beforeShow                      32,0          32          32         0,0           1
+velo3$VeloDetail.browse#create                          13,0          13          13         0,0           1
+velo3$VeloDetail.browse#init                             6,0           6           6         0,0           1
+velo3$VeloDetail.browse#inject                           0,0           0           0         0,0           1
+velo3$VeloDetail.browse#load                          1014,0        1014        1014         0,0           1
+velo3$VeloDetail.browse#uiPermissions                    0,0           0           0         0,0           1
+velo3$VeloDetail.browse#xml                              1,0           1           1         0,0           1
+voiceControlConsole#create                              66,0          66          66         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-11-09 16:06:00 - 2021-11-09 16:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         15,0          15          15         0,0           1
+MenuItem.tm$Task.edit                                 3078,5         528        5629      2550,5           2
+TDS null                                                16,0          16          16         0,0           1
+actionsFrame#create                                      1,0           0           2         1,0           2
+actionsFrame#xml                                         0,3           0           1         0,4           4
+cardAttachmentsFrame#create                             78,5           2         155        76,5           2
+cardAttachmentsFrame#xml                                 0,3           0           1         0,4           4
+cardCommentFrame#create                                 54,0           3         105        51,0           2
+cardCommentFrame#xml                                     0,3           0           1         0,4           4
+cardCommentTextAreaFrame#create                         23,0           0          46        23,0           2
+cardCommentTextAreaFrame#xml                             0,3           0           1         0,4           4
+cardProjectsFrame#create                                 2,0           1           3         1,0           2
+cardProjectsFrame#xml                                    0,8           0           3         1,3           4
+cardRelationsFrame#create                                5,0           3           7         2,0           2
+cardRelationsFrame#xml                                   0,3           0           1         0,4           4
+cardTreeFrame#create                                     0,3           0           1         0,5           3
+cardTreeFrame#xml                                        0,2           0           1         0,4           6
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               3,0           3           3         0,0           1
+lookupWindowActions#load                                 1,0           1           1         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+openHistoryFrame#create                                  1,0           0           2         1,0           2
+openHistoryFrame#xml                                     0,3           0           1         0,4           4
+runtimePropertiesFrame#xml                               1,3           0           5         2,2           4
+runtimePropertiesFrameMain#xml                           0,3           0           1         0,4           4
+runtimePropertiesFrameTab#xml                            0,0           0           0         0,0           4
+taskCardRolesFrame#create                               40,0           1          79        39,0           2
+taskCardRolesFrame#xml                                   3,3           0          13         5,6           4
+taskResolutionsFrame#create                              0,7           0           2         0,9           3
+taskResolutionsFrame#xml                                 0,5           0           3         1,1           6
+tm$Task.browse#beforeShow                                0,0           0           0         0,0           1
+tm$Task.browse#create                                    4,0           4           4         0,0           1
+tm$Task.browse#init                                    161,0         161         161         0,0           1
+tm$Task.browse#inject                                   27,0          27          27         0,0           1
+tm$Task.browse#load                                    325,0         325         325         0,0           1
+tm$Task.browse#uiPermissions                             0,0           0           0         0,0           1
+tm$Task.browse#xml                                       1,5           0           3         1,5           2
+tm$Task.browse.cardTreeFrame#init                        0,0           0           0         0,0           1
+tm$Task.browse.cardTreeFrame#inject                      0,0           0           0         0,0           1
+tm$Task.browse.cardTreeFrame#load                        1,0           1           1         0,0           1
+tm$Task.browse.lookupWindowActions#init                  0,0           0           0         0,0           1
+tm$Task.browse.resolutionsFrame#init                     0,0           0           0         0,0           1
+tm$Task.browse.resolutionsFrame#inject                   0,0           0           0         0,0           1
+tm$Task.browse.resolutionsFrame#load                     1,0           1           1         0,0           1
+tm$Task.browse@cardsDs                                 116,0         116         116         0,0           1
+tm$Task.edit#afterShow                                   0,0           0           0         0,0           2
+tm$Task.edit#beforeShow                                  2,5           0           5         2,5           2
+tm$Task.edit#companion                                   1,5           0           3         1,5           2
+tm$Task.edit#create                                     10,5           0          21        10,5           2
+tm$Task.edit#init                                      212,0          10         414       202,0           2
+tm$Task.edit#inject                                     21,0           1          41        20,0           2
+tm$Task.edit#load                                     1022,0          78        1966       944,0           2
+tm$Task.edit#uiPermissions                               0,0           0           0         0,0           2
+tm$Task.edit#xml                                         2,5           0          25         7,5          10
+tm$Task.edit.actionsFrame#init                           0,0           0           0         0,0           2
+tm$Task.edit.actionsFrame#inject                         3,0           0           6         3,0           2
+tm$Task.edit.actionsFrame#load                           0,0           0           0         0,0           2
+tm$Task.edit.cardAttachmentsFrame#init                 158,5           5         312       153,5           2
+tm$Task.edit.cardAttachmentsFrame#inject                 9,5           0          19         9,5           2
+tm$Task.edit.cardAttachmentsFrame#load                 108,5           3         214       105,5           2
+tm$Task.edit.cardCommentFrame#init                      56,0          14          98        42,0           2
+tm$Task.edit.cardCommentFrame#inject                     5,5           0          11         5,5           2
+tm$Task.edit.cardCommentFrame#load                      19,0           1          37        18,0           2
+tm$Task.edit.cardCommentFrame.cardCommentTextAreaFrame#init         8,0           0          16         8,0           2
+tm$Task.edit.cardCommentFrame.cardCommentTextAreaFrame#inject         3,0           0           6         3,0           2
+tm$Task.edit.cardCommentFrame.cardCommentTextAreaFrame#load        12,5           0          25        12,5           2
+tm$Task.edit.cardCommentFrame@commentDs                 27,0          10          44        17,0           2
+tm$Task.edit.cardProjectsFrame#init                     11,0           0          22        11,0           2
+tm$Task.edit.cardProjectsFrame#inject                    1,5           0           3         1,5           2
+tm$Task.edit.cardProjectsFrame#load                      5,5           0          11         5,5           2
+tm$Task.edit.cardRelationsFrame#init                     0,0           0           0         0,0           2
+tm$Task.edit.cardRelationsFrame#inject                   1,5           0           3         1,5           2
+tm$Task.edit.cardRelationsFrame#load                     1,0           1           1         0,0           2
+tm$Task.edit.cardRolesFrame#init                         0,0           0           0         0,0           2
+tm$Task.edit.cardRolesFrame#inject                       5,5           0          11         5,5           2
+tm$Task.edit.cardRolesFrame#load                        44,0           3          85        41,0           2
+tm$Task.edit.cardRolesFrame@procRolesDs                 28,8          18          60        14,5           6
+tm$Task.edit.cardTreeFrame#init                          0,5           0           1         0,5           2
+tm$Task.edit.cardTreeFrame#inject                        3,0           0           6         3,0           2
+tm$Task.edit.cardTreeFrame#load                         31,0           1          61        30,0           2
+tm$Task.edit.cardTreeFrame@cardTreeDs                    0,5           0           1         0,5           2
+tm$Task.edit.openHistoryFrame#init                       0,0           0           0         0,0           2
+tm$Task.edit.openHistoryFrame#inject                     1,0           0           2         1,0           2
+tm$Task.edit.openHistoryFrame#load                      13,0           0          26        13,0           2
+tm$Task.edit.openHistoryFrame@openHistoryDs             14,5          13          16         1,5           2
+tm$Task.edit.resolutionsFrame#init                      13,0           0          26        13,0           2
+tm$Task.edit.resolutionsFrame#inject                     2,0           0           4         2,0           2
+tm$Task.edit.resolutionsFrame#load                      38,5           1          76        37,5           2
+tm$Task.edit.resolutionsFrame@resolutionsDs             50,0          17          83        33,0           2
+tm$Task.edit.runtimePropertiesFrameMain#init            23,0           0          46        23,0           2
+tm$Task.edit.runtimePropertiesFrameMain#inject           5,0           2           8         3,0           2
+tm$Task.edit.runtimePropertiesFrameMain#load             5,5           0          11         5,5           2
+tm$Task.edit.runtimePropertiesFrameTab#init              0,0           0           0         0,0           2
+tm$Task.edit.runtimePropertiesFrameTab#inject            0,0           0           0         0,0           2
+tm$Task.edit.runtimePropertiesFrameTab#load              0,0           0           0         0,0           2
+tm$Task.edit@attachmentsDs                              38,3          20          67        20,5           3
+tm$Task.edit@cardRelationsDs                            25,3          15          35         8,2           3
+tm$Task.edit@categoriesDs                                7,5           6           9         1,5           2
+tm$Task.edit@prioritiesDs                                7,0           5           9         2,0           2
+tm$Task.edit@taskGroupsDs                              150,5           8         293       142,5           2
+tm$Task.edit@taskTypesDs                                16,5           9          24         7,5           2
+tm$Task.edit@veloDetailsDs                               7,0           5           9         2,0           2
+
+Performance Statistics   2021-11-09 16:08:00 - 2021-11-09 16:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

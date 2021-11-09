@@ -16,6 +16,7 @@
                             <action id="excel"></action>
                             <action id="refresh"></action>
                         </actions>
+                        <!--Cannot get unfetched attribute [veloDetail] from detached object  -->
                         <columns>
                             <column id="amount" caption="msg://amount"></column>
                             <column id="veloDetail" caption="msg://veloDetail"></column>
