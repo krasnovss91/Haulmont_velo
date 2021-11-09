@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.company.velo3.velo3.iml" filepath="$PROJECT_DIR$/.idea/modules/com.company.velo3.velo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velo3.iml" filepath="$PROJECT_DIR$/velo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/velo3.app-core.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/velo3.app-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/velo3.app-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/velo3.app-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/velo3.app-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/velo3.app-core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/global/velo3.app-global.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/global/velo3.app-global.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/global/velo3.app-global.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/global/velo3.app-global.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/global/velo3.app-global.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/global/velo3.app-global.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/gui/velo3.app-gui.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/gui/velo3.app-gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/gui/velo3.app-gui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/gui/velo3.app-gui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/gui/velo3.app-gui.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/gui/velo3.app-gui.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/mobile-rest/velo3.app-mobile-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/mobile-rest/velo3.app-mobile-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/mobile-rest/velo3.app-mobile-rest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/mobile-rest/velo3.app-mobile-rest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/mobile-rest/velo3.app-mobile-rest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/mobile-rest/velo3.app-mobile-rest.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/portal/velo3.app-portal.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/portal/velo3.app-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/portal/velo3.app-portal.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/portal/velo3.app-portal.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/portal/velo3.app-portal.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/portal/velo3.app-portal.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/web/velo3.app-web.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/web/velo3.app-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/web/velo3.app-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/web/velo3.app-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/web/velo3.app-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/web/velo3.app-web.test.iml" />
+    </modules>
+  </component>
+</project>

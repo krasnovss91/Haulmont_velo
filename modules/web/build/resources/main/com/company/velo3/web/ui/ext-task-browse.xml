@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd"
+        class="com.company.velo3.web.ui.ExtTaskBrowser"
+        extends="com/haulmont/thesis/web/ui/task/task-browse.xml"
+        messagesPack="com.company.velo3.web.ui">
+    <dsContext>
+        <groupDatasource id="cardsDc" class="com.company.velo3.entity.ExTask"/>
+    </dsContext>
+    <layout>
+        <vbox id="mainLayout">
+            <split id="split">
+                <vbox id="table-panel">
+                    <groupTable>
+                        <actions>
+                            <action id="excel"></action>
+                            <action id="refresh"></action>
+                        </actions>
+                        <columns>
+                            <column id="veloDetail" caption="msg://veloDetail"></column>
+                        </columns>
+                        <rows/>
+                    </groupTable>
+                </vbox>
+            </split>
+        </vbox>
+    </layout>
+</window>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fts-config>
+    <entities>
+
+        <entity class="com.company.velo3.entity.VeloDetail">
+            <include re=".*"/>
+        </entity>
+        <entity class="com.company.velo3.entity.ExTask">
+            <include re=".*"/>
+        </entity>
+    </entities>
+</fts-config>
