@@ -1,0 +1,23 @@
+11-Nov-2021 11:00:55.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Nov-2021 11:00:58.410 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2021 11:00:58.509 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2858] milliseconds
+11-Nov-2021 11:00:58.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2021 11:00:58.621 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+11-Nov-2021 11:00:58.702 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app-portal]
+11-Nov-2021 11:00:58.937 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [debug] to [0]
+11-Nov-2021 11:00:58.938 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [distributable] to [false]
+11-Nov-2021 11:01:14.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app-portal] has finished in [15 751] ms
+11-Nov-2021 11:01:14.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app-core]
+11-Nov-2021 11:01:14.492 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [debug] to [0]
+11-Nov-2021 11:01:14.493 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [distributable] to [false]
+11-Nov-2021 11:01:40.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app-core] has finished in [25 746] ms
+11-Nov-2021 11:01:40.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app]
+11-Nov-2021 11:01:40.284 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [debug] to [0]
+11-Nov-2021 11:01:40.284 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [distributable] to [false]
+11-Nov-2021 11:01:56.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app] has finished in [15 795] ms
+11-Nov-2021 11:01:56.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/ROOT]
+11-Nov-2021 11:01:56.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/ROOT] has finished in [221] ms
+11-Nov-2021 11:01:56.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app-mobile-rest]
+11-Nov-2021 11:02:01.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/kstreams-testing-pitfalls-master/untitled5/untitled/velo3/deploy/tomcat/webapps/app-mobile-rest] has finished in [5 399] ms
+11-Nov-2021 11:02:01.812 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2021 11:02:02.140 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [63629] milliseconds
