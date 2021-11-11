@@ -8,7 +8,7 @@
         <datasource id="cardDs" class="com.company.velo3.entity.ExTask"/>
         <collectionDatasource id="veloDetailsDs" class="com.company.velo3.entity.VeloDetail" view="_local">
             <query>
-                <![CDATA[select e from velo3$VeloDetail e]]>
+                <![CDATA[select e from velo3$ExTask e]]>
             </query>
         </collectionDatasource>
     </dsContext>

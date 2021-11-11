@@ -6,9 +6,9 @@
         messagesPack="com.company.velo3.web.ui">
     <dsContext>
         <groupDatasource id="cardsDs" class="com.company.velo3.entity.ExTask"
-        view="exTask-view"> <!--что если сюда запрос с деталями -->
+        view="exTask-view">
             <query>
-                <![CDATA[select e from velo3$VeloDetail e]]>
+                <![CDATA[select e from velo3$ExTask e]]>
             </query>
         </groupDatasource>
     </dsContext>
