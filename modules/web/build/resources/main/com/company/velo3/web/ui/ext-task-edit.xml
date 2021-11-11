@@ -10,6 +10,12 @@
             <query>
                 <![CDATA[select e from velo3$VeloDetail e]]>
             </query>
+        </collectionDatasource> <!--отдельный контейнер или where? -->
+
+        <collectionDatasource id="extTaskDs" class="com.company.velo3.entity.ExTask" view="_local">
+            <query>
+                <![CDATA[select e from velo3$ExTask e]]>
+            </query>
         </collectionDatasource>
     </dsContext>
     <layout expand="split">
