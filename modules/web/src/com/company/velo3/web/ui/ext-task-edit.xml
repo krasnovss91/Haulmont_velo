@@ -24,9 +24,15 @@
             </hbox>
         </split>
         <groupTable height="100px" width="100%">
+            <!--
+            <actions>
+                <action id="create"/>
+                <action id="remove"/>
+            </actions>
+            -->
             <buttonsPanel>
-                <button id="add" caption="add"/>
-                <button id ="exclude" caption="exclude"/>
+                <button id="add" caption="add" action="create"/>
+                <button id ="exclude" caption="exclude" action="remove"/>
             </buttonsPanel>
             <rows datasource="veloDetailsDs"/>
         </groupTable>
