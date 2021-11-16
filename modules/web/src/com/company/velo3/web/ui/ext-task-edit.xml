@@ -25,8 +25,8 @@
         </split>
         <groupTable height="100px" width="100%">
             <buttonsPanel>
-                <button id="add"/>
-                <button id ="exclude"/>
+                <button id="add" caption="add"/>
+                <button id ="exclude" caption="exclude"/>
             </buttonsPanel>
             <rows datasource="veloDetailsDs"/>
         </groupTable>
