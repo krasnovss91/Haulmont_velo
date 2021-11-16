@@ -5,6 +5,8 @@ import com.haulmont.cuba.core.entity.annotation.Extends;
 import com.haulmont.thesis.core.entity.Task;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @javax.persistence.DiscriminatorValue("1200")
 @Table(name = "VELO3_EX_TASK")
@@ -17,19 +19,25 @@ public class ExTask extends Task {
     @Column(name = "AMOUNT")
     protected Integer amount;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "VELO_DETAIL_ID")
-    protected VeloDetail veloDetail;
+    @OneToMany(mappedBy = "exTask")
+    protected List<VeloDetail> veloDetail;
 
-    @MetaProperty
-    public Integer getTotalCost(){return amount * veloDetail.getCost();}
+    public void setVeloDetail(List<VeloDetail> veloDetail) {
+        this.veloDetail = veloDetail;
+    }
 
-    public VeloDetail getVeloDetail() {
+    public List<VeloDetail> getVeloDetail() {
         return veloDetail;
     }
 
-    public void setVeloDetail(VeloDetail veloDetail) {
-        this.veloDetail = veloDetail;
+    @MetaProperty
+    public Integer getTotalCost() {
+        // return amount * veloDetail.getCost();
+        List<Integer> costs = new ArrayList<>();
+        for (VeloDetail detail : veloDetail) {
+           costs.add(detail.getCost());
+        }
+        return amount * (costs.stream().mapToInt(i -> i).sum());
     }
 
     public Integer getAmount() {
