@@ -638,3 +638,6 @@ tm$Task.edit@taskGroupsDs                              378,0         378        
 voiceControlConsole#create                              63,0          63          63         0,0           1
 voiceControlConsole#xml                                  1,0           1           1         0,0           1
 
+Performance Statistics   2021-11-16 19:38:00 - 2021-11-16 19:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
