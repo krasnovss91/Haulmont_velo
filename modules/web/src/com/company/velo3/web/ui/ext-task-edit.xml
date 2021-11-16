@@ -19,6 +19,7 @@
                             <scrollBox id="infoScrollBox">
                                 <vbox id="infoVBox">
                                     <grid id="rolesInfoGrid">
+                                        <!--
                                         <rows>
                                             <row>
                                                 <label id="amountLabel" value="msg://amount"/>
@@ -31,7 +32,7 @@
                                                                    optionsDatasource="veloDetailsDs"
                                                                    property="veloDetail" width="250px"/>
                                             </row>
-                                        </rows>
+                                        </rows> -->
                                     </grid>
                                 </vbox>
                             </scrollBox>
@@ -43,7 +44,7 @@
                 </vbox>
             </hbox>
         </split>
-        <groupTable height="100px" width="200px">
+        <groupTable height="100px" width="100%">
             <rows datasource="veloDetailsDs"/>
         </groupTable>
     </layout>

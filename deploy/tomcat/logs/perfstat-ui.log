@@ -355,3 +355,38 @@ tm$Task.edit#xml                                         1,2           0        
 Performance Statistics   2021-11-16 15:00:00 - 2021-11-16 15:02:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
+Performance Statistics   2021-11-16 15:28:00 - 2021-11-16 15:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-16 15:30:00 - 2021-11-16 15:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-16 15:32:00 - 2021-11-16 15:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     126,0         126         126         0,0           1
+loginWindow#init                                        34,0          34          34         0,0           1
+loginWindow#inject                                      68,0          68          68         0,0           1
+loginWindow#load                                       472,0         472         472         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                          4,5           0           9         4,5           2
+
+Performance Statistics   2021-11-16 15:34:00 - 2021-11-16 15:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         37,0          37          37         0,0           1
+TDS null                                                63,0          63          63         0,0           1
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       21,0          21          21         0,0           1
+mainWindow#init                                        332,0         332         332         0,0           1
+mainWindow#inject                                       49,0          49          49         0,0           1
+mainWindow#load                                       1596,0        1596        1596         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           2,5           0           5         2,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    7,0           7           7         0,0           1
+mainWindow.voiceControlConsole#load                     44,0          44          44         0,0           1
+voiceControlConsole#create                             135,0         135         135         0,0           1
+voiceControlConsole#xml                                  2,0           2           2         0,0           1
+
