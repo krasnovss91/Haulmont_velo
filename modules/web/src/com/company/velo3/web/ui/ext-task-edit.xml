@@ -15,28 +15,7 @@
             <hbox id="mainPane">
                 <tabSheet id="tabsheet">
                     <tab id="mainTab">
-                        <groupBox id="taskInfoGroupBox">
-                            <scrollBox id="infoScrollBox">
-                                <vbox id="infoVBox">
-                                    <grid id="rolesInfoGrid">
-                                        <!--
-                                        <rows>
-                                            <row>
-                                                <label id="amountLabel" value="msg://amount"/>
-                                                <textField id="amount" datasource="cardDs" property="amount"
-                                                           width="250px"/>
-                                            </row>
-                                            <row>
-                                                <label id="veloDetailLabel" value="msg://veloDetail"/>
-                                                <lookupPickerField id="veloDetail" datasource="cardDs"
-                                                                   optionsDatasource="veloDetailsDs"
-                                                                   property="veloDetail" width="250px"/>
-                                            </row>
-                                        </rows> -->
-                                    </grid>
-                                </vbox>
-                            </scrollBox>
-                        </groupBox>
+                        <groupBox id="taskInfoGroupBox"/>
                     </tab>
                 </tabSheet>
                 <vbox>
@@ -45,6 +24,10 @@
             </hbox>
         </split>
         <groupTable height="100px" width="100%">
+            <buttonsPanel>
+                <button id="add"/>
+                <button id ="exclude"/>
+            </buttonsPanel>
             <rows datasource="veloDetailsDs"/>
         </groupTable>
     </layout>
