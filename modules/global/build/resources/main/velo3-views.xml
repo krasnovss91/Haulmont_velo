@@ -8,4 +8,11 @@
                   view="_minimal"/>
     </view>
 
+    <view class="com.company.velo3.entity.ExTask"
+          extends="edit"
+          name="exTask-edit">
+        <property name="veloDetail"
+                  view="_minimal"/>
+    </view>
+
 </views>

@@ -1,473 +1,120 @@
-Performance Statistics   2021-11-11 11:01:00 - 2021-11-11 11:02:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,2           0           1         0,4          18
-Messages.searchClasspath                                 0,2           0          14         0,9         666
-Messages.searchFiles                                     0,1           0          34         1,3         666
-Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           4
-Scheduling.processTasks                                132,7          29         592       141,4          25
-ViewRepository.init.ExtViewRepositoryImpl               84,0          84          84         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-WebJARs                                                 14,0          14          14         0,0           1
-
-Performance Statistics   2021-11-11 11:02:00 - 2021-11-11 11:03:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 1,0           0          30         4,9          52
-Messages.searchFiles                                     0,0           0           0         0,0          52
-Scheduling.processTasks                                 43,0          14         443        59,6          60
-
-Performance Statistics   2021-11-11 11:03:00 - 2021-11-11 11:04:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 23,8          13         201        26,4          60
-
-Performance Statistics   2021-11-11 11:04:00 - 2021-11-11 11:05:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,5           0          98         6,7         425
-Messages.searchFiles                                     0,0           0           0         0,0         426
-Messages.searchRemotely                                  1,9           0          10         2,6          26
-Scheduling.processTasks                                 55,0          12         282        55,0          60
-
-Performance Statistics   2021-11-11 11:05:00 - 2021-11-11 11:06:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            4779,0        4779        4779         0,0           1
-LoadClass                                                0,1           0          67         1,7        3182
-Messages.searchClasspath                                 0,0           0         148         1,3       27506
-Messages.searchFiles                                     0,0           0          13         0,1       27505
-Messages.searchRemotely                                  0,5           0          46         1,6        1717
-Scheduling.processTasks                                 60,3           8         403        84,0          60
-SearchFolders                                           99,0          99          99         0,0           1
-Thesis:loadCalendarEvents                               18,0          18          18         0,0           1
-Thesis:loadCardDeadlineInfoTree                         19,0          19          19         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           104,0         104         104         0,0           1
-ViewRepository.replaceOverridden                         0,1           0           3         0,6          21
-
-Performance Statistics   2021-11-11 11:06:00 - 2021-11-11 11:07:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              23,8          12          48        14,2           4
-LoadClass                                                1,2           0          57         6,3          88
-Messages.searchClasspath                                 0,0           0         377         1,7       87584
-Messages.searchFiles                                     0,0           0          29         0,1       87584
-Messages.searchRemotely                                  0,3           0         195         3,3        5438
-Scheduling.processTasks                                 49,0           6         401        64,0          60
-Thesis:loadCalendarEvents                                2,0           2           2         0,0           1
-Thesis:loadCardDeadlineInfoTree                         10,0          10          10         0,0           1
-
-Performance Statistics   2021-11-11 11:24:00 - 2021-11-11 11:25:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,3           0           2         0,5          19
-Messages.searchClasspath                                 0,1           0          21         0,9        1754
-Messages.searchFiles                                     0,0           0          32         0,8        1754
-Messages.searchRemotely                                  2,4           0          65         8,0          67
-Metadata.replaceExtendedMetaClasses                      2,8           2           3         0,4           4
-Scheduling.processTasks                                130,1          19        1046       176,0          32
-ViewRepository.init.ExtViewRepositoryImpl               94,0          94          94         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-WebJARs                                                 14,0          14          14         0,0           1
-
-Performance Statistics   2021-11-11 11:25:00 - 2021-11-11 11:26:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            2623,5          43        5204      2580,5           2
-LoadClass                                                0,1           0          28         0,8        3184
-Messages.searchClasspath                                 0,0           0         469         1,6       88895
-Messages.searchFiles                                     0,0           0          23         0,1       88895
-Messages.searchRemotely                                  0,5           0         483         6,6        5541
-Scheduling.processTasks                                 74,5           9         947       154,9          60
-SearchFolders                                           48,0          48          48         0,0           1
-Thesis:loadCalendarEvents                              114,0         114         114         0,0           1
-Thesis:loadCardDeadlineInfoTree                         29,0          29          29         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           162,0         162         162         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           1         0,2          21
-
-Performance Statistics   2021-11-11 11:44:00 - 2021-11-11 11:45:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,3           0           1         0,4          18
-Messages.searchClasspath                                 0,2           0          12         0,9         564
-Messages.searchFiles                                     0,1           0          38         1,6         564
-Metadata.replaceExtendedMetaClasses                      2,3           2           3         0,5           3
-Scheduling.processTasks                                147,6          49         648       138,1          19
-ViewRepository.init.ExtViewRepositoryImpl              105,0         105         105         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-WebJARs                                                236,0         236         236         0,0           1
-
-Performance Statistics   2021-11-11 11:45:00 - 2021-11-11 11:46:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            2318,0          38        4598      2280,0           2
-LoadClass                                                0,1           0          13         0,5        3185
-Messages.searchClasspath                                 0,0           0          78         0,4       90020
-Messages.searchFiles                                     0,0           0          20         0,1       90020
-Messages.searchRemotely                                  0,4           0          98         1,9        5604
-Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           1
-Scheduling.processTasks                                 51,1          12         418        60,2          60
-SearchFolders                                           83,0          83          83         0,0           1
-Thesis:loadCalendarEvents                               19,0          19          19         0,0           1
-Thesis:loadCardDeadlineInfoTree                         27,0          27          27         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           121,0         121         121         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           1         0,2          21
-
-Performance Statistics   2021-11-11 11:47:00 - 2021-11-11 11:48:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,2           0           9         0,9         144
-Messages.searchFiles                                     0,3           0          48         4,0         144
-Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
-
-Performance Statistics   2021-11-11 11:52:00 - 2021-11-11 11:53:00
+Performance Statistics   2021-11-16 12:23:00 - 2021-11-16 12:24:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 Messages.searchClasspath                                 0,1           0           8         0,8         144
-Messages.searchFiles                                     0,1           0          19         1,6         144
-
-Performance Statistics   2021-11-11 11:53:00 - 2021-11-11 11:54:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,2           0          29         1,4        1314
-Messages.searchClasspath                                 0,1           0         210         3,1        9984
-Messages.searchFiles                                     0,0           0           6         0,1        9984
-Messages.searchRemotely                                  1,2           0         101         4,6         576
-Metadata.replaceExtendedMetaClasses                      2,8           2           3         0,4           4
-Scheduling.processTasks                                 89,0          15         567       104,7          38
-Thesis:loadCalendarEvents                               20,0          20          20         0,0           1
-Thesis:loadCardDeadlineInfoTree                         51,0          51          51         0,0           1
-ViewRepository.init.ExtViewRepositoryImpl              115,0         115         115         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           103,0         103         103         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           2         0,3          42
-WebJARs                                                 36,0          36          36         0,0           1
-
-Performance Statistics   2021-11-11 11:54:00 - 2021-11-11 11:55:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            2781,0          51        5511      2730,0           2
-CardBrowserDataSource.loadCardActorsInfo                83,0          83          83         0,0           1
-LoadClass                                                0,1           0          16         0,7        1889
-Messages.searchClasspath                                 0,0           0          29         0,3       81332
-Messages.searchFiles                                     0,0           0          19         0,1       81332
-Messages.searchRemotely                                  0,3           0          30         1,3        5083
-Scheduling.processTasks                                 39,8          14         207        34,8          60
-SearchFolders                                           78,0          78          78         0,0           1
-
-Performance Statistics   2021-11-11 11:55:00 - 2021-11-11 11:56:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 41,7          11         165        31,8          60
-
-Performance Statistics   2021-11-11 11:56:00 - 2021-11-11 11:57:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              13,0          10          16         3,0           2
-CardBrowserDataSource.loadCardActorsInfo                37,0          32          42         5,0           2
-LoadClass                                                1,4           0          13         2,9          27
-Messages.searchClasspath                                 0,0           0          16         0,2       26173
-Messages.searchFiles                                     0,0           0          15         0,1       26173
-Messages.searchRemotely                                  0,3           0          16         1,0        1598
-Scheduling.processTasks                                 47,9           8         181        37,8          60
-
-Performance Statistics   2021-11-11 12:16:00 - 2021-11-11 12:17:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,2           0          16         1,3         284
-Messages.searchFiles                                     0,2           0          43         2,5         284
-Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           2
-
-Performance Statistics   2021-11-11 12:17:00 - 2021-11-11 12:18:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            2199,0          63        4335      2136,0           2
-CardBrowserDataSource.loadCardActorsInfo                87,0          87          87         0,0           1
-LoadClass                                                0,1           0          16         0,5        3203
-Messages.searchClasspath                                 0,0           0          31         0,4       90862
-Messages.searchFiles                                     0,0           0          18         0,1       90862
-Messages.searchRemotely                                  0,5           0         400         5,6        5643
-Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           2
-Scheduling.processTasks                                 74,0          14         460        77,5          64
-SearchFolders                                           37,0          37          37         0,0           1
-Thesis:loadCalendarEvents                               23,0          23          23         0,0           1
-Thesis:loadCardDeadlineInfoTree                         31,0          31          31         0,0           1
-ViewRepository.init.ExtViewRepositoryImpl              111,0         111         111         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl            92,0          92          92         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           2         0,3          42
-WebJARs                                                 16,0          16          16         0,0           1
-
-Performance Statistics   2021-11-11 12:22:00 - 2021-11-11 12:23:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,2           0           1         0,4          18
-Messages.searchClasspath                                 0,2           0          15         1,0         660
-Messages.searchFiles                                     0,1           0          45         1,8         660
-Metadata.replaceExtendedMetaClasses                      2,8           2           3         0,4           4
-Scheduling.processTasks                                111,6          12         479       146,2          14
-ViewRepository.init.ExtViewRepositoryImpl               88,0          88          88         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-WebJARs                                                 14,0          14          14         0,0           1
-
-Performance Statistics   2021-11-11 12:23:00 - 2021-11-11 12:24:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            1511,7          21        4486      2103,2           3
-LoadClass                                                0,1           0          12         0,5        3255
-Messages.searchClasspath                                 0,0           0         482         1,7       82955
-Messages.searchFiles                                     0,0           0         480         1,7       82956
-Messages.searchRemotely                                  0,4           0         481         6,8        5144
-Scheduling.processTasks                                 38,7          14         237        45,8          60
-SearchFolders                                           42,0          42          42         0,0           1
-Thesis:loadCalendarEvents                                4,5           3           6         1,5           2
-Thesis:loadCardDeadlineInfoTree                         33,0          20          46        13,0           2
-ViewRepository.init.ViewRepositoryClientImpl            89,0          89          89         0,0           1
-ViewRepository.replaceOverridden                         0,1           0           2         0,4          21
-
-Performance Statistics   2021-11-11 12:57:00 - 2021-11-11 12:58:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,1           0           8         0,7         276
-Messages.searchFiles                                     0,1           0          39         2,3         276
-Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
-
-Performance Statistics   2021-11-11 12:58:00 - 2021-11-11 12:59:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,2           0           1         0,4          18
-Messages.searchClasspath                                 0,2           0          13         0,9         383
-Messages.searchFiles                                     0,0           0           0         0,0         383
-Metadata.replaceExtendedMetaClasses                      2,3           2           3         0,5           3
-Scheduling.processTasks                                 59,5          14         458        73,4          57
-ViewRepository.init.ExtViewRepositoryImpl               98,0          98          98         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-WebJARs                                                 15,0          15          15         0,0           1
-
-Performance Statistics   2021-11-11 12:59:00 - 2021-11-11 13:00:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 26,4          11          73        17,1          60
-
-Performance Statistics   2021-11-11 13:00:00 - 2021-11-11 13:01:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            4499,0        4499        4499         0,0           1
-LoadClass                                                0,1           0          14         0,5        3171
-Messages.searchClasspath                                 0,0           0          39         0,5       14037
-Messages.searchFiles                                     0,0           0          22         0,2       14037
-Messages.searchRemotely                                  1,1           0         365        12,4         874
-Scheduling.processTasks                                 45,6           8         511        76,2          60
-SearchFolders                                           79,0          79          79         0,0           1
-Thesis:loadCalendarEvents                                5,0           5           5         0,0           1
-Thesis:loadCardDeadlineInfoTree                         20,0          20          20         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           109,0         109         109         0,0           1
-ViewRepository.replaceOverridden                         0,3           0           4         0,9          21
-
-Performance Statistics   2021-11-11 13:01:00 - 2021-11-11 13:02:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              56,0          56          56         0,0           1
-CardBrowserDataSource.loadCardActorsInfo                57,0          57          57         0,0           1
-LoadClass                                                2,0           0          21         5,4          14
-Messages.searchClasspath                                 0,0           0          61         0,5       76449
-Messages.searchFiles                                     0,0           0          21         0,1       76449
-Messages.searchRemotely                                  0,3           0          28         1,3        4769
-Scheduling.processTasks                                 26,2           7          74        17,2          60
-
-Performance Statistics   2021-11-11 13:02:00 - 2021-11-11 13:03:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 22,5          10         112        16,8          60
-
-Performance Statistics   2021-11-11 13:03:00 - 2021-11-11 13:04:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              12,0          12          12         0,0           1
-Scheduling.processTasks                                 23,7           8         101        22,8          60
-
-Performance Statistics   2021-11-11 13:04:00 - 2021-11-11 13:05:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 39,5           6         298        53,1          60
-
-Performance Statistics   2021-11-11 13:05:00 - 2021-11-11 13:06:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 27,7           5         212        36,5          60
-
-Performance Statistics   2021-11-11 13:06:00 - 2021-11-11 13:07:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              12,0          12          12         0,0           1
-Scheduling.processTasks                                 24,9           9         179        26,9          60
-
-Performance Statistics   2021-11-11 15:06:00 - 2021-11-11 15:07:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,2           0           8         0,9         144
 Messages.searchFiles                                     0,2           0          34         2,8         144
 Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
 
-Performance Statistics   2021-11-11 15:07:00 - 2021-11-11 15:08:00
+Performance Statistics   2021-11-16 12:24:00 - 2021-11-16 12:25:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 LoadClass                                                0,2           0           1         0,4          18
-Messages.searchClasspath                                 0,3           0          23         1,8         425
-Messages.searchFiles                                     0,0           0           2         0,1         425
-Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
-Scheduling.processTasks                                151,4          29         675       161,0          20
-ViewRepository.init.ExtViewRepositoryImpl              105,0         105         105         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-WebJARs                                                126,0         126         126         0,0           1
-
-Performance Statistics   2021-11-11 15:08:00 - 2021-11-11 15:09:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            4061,5          41        8082      4020,5           2
-CardBrowserDataSource.loadCardActorsInfo                98,0          98          98         0,0           1
-LoadClass                                                0,2           0         113         2,7        3212
-Messages.searchClasspath                                 0,0           0         304         1,2      107521
-Messages.searchFiles                                     0,0           0          25         0,1      107520
-Messages.searchRemotely                                  0,4           0         493         6,4        6683
-Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           1
-Scheduling.processTasks                                 89,7          13         463        88,3          60
-SearchFolders                                          972,0         972         972         0,0           1
-Thesis:loadCalendarEvents                               24,0          24          24         0,0           1
-Thesis:loadCardDeadlineInfoTree                         26,0          26          26         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl            93,0          93          93         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-
-Performance Statistics   2021-11-11 15:09:00 - 2021-11-11 15:10:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              34,0          34          34         0,0           1
-CardBrowserDataSource.loadCardActorsInfo                31,0          31          31         0,0           1
-LoadClass                                                0,0           0           0         0,0          83
-Scheduling.processTasks                                 43,4          15         255        37,0          60
-Thesis:loadCalendarEvents                               16,0          16          16         0,0           1
-Thesis:loadCardDeadlineInfoTree                         13,0          13          13         0,0           1
-
-Performance Statistics   2021-11-11 15:10:00 - 2021-11-11 15:11:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                               9,5           9          10         0,5           2
-LoadClass                                                0,7           0          50         5,3          94
-Messages.searchClasspath                                 0,0           0          16         0,2        9235
-Messages.searchFiles                                     0,0           0          14         0,2        9235
-Messages.searchRemotely                                  0,3           0          14         1,1         568
-Scheduling.processTasks                                 43,5           6         296        54,8          60
-
-Performance Statistics   2021-11-11 15:59:00 - 2021-11-11 16:00:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,2           0           8         0,8         144
-Messages.searchFiles                                     0,3           0          37         3,1         144
-
-Performance Statistics   2021-11-11 16:00:00 - 2021-11-11 16:01:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-LoadClass                                                0,9           0           3         1,0          18
-Messages.searchClasspath                                 0,2           0          16         1,1         426
-Messages.searchFiles                                     0,0           0           0         0,0         426
-Metadata.replaceExtendedMetaClasses                      2,7           2           3         0,5           3
-Scheduling.processTasks                                155,7          35         646       158,3          29
-ViewRepository.init.ExtViewRepositoryImpl              101,0         101         101         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           1         0,2          21
-WebJARs                                                 18,0          18          18         0,0           1
-
-Performance Statistics   2021-11-11 16:09:00 - 2021-11-11 16:10:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,2           0           9         0,8         276
-Messages.searchFiles                                     0,2           0          48         2,9         276
-Metadata.replaceExtendedMetaClasses                      4,0           4           4         0,0           1
-
-Performance Statistics   2021-11-11 16:10:00 - 2021-11-11 16:11:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            2173,5          52        4295      2121,5           2
-CardBrowserDataSource.loadCardActorsInfo                76,0          76          76         0,0           1
-LoadClass                                                0,1           0          56         1,1        3203
-Messages.searchClasspath                                 0,0           0          62         0,5       90808
-Messages.searchFiles                                     0,0           0          22         0,1       90808
-Messages.searchRemotely                                  0,5           0          75         2,1        5639
-Metadata.replaceExtendedMetaClasses                      2,7           2           3         0,5           3
-Scheduling.processTasks                                108,7          14        1149       178,8          58
-SearchFolders                                           34,0          34          34         0,0           1
-Thesis:loadCalendarEvents                                5,0           5           5         0,0           1
-Thesis:loadCardDeadlineInfoTree                         28,0          28          28         0,0           1
-ViewRepository.init.ExtViewRepositoryImpl               93,0          93          93         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           144,0         144         144         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          42
-WebJARs                                                 14,0          14          14         0,0           1
-
-Performance Statistics   2021-11-11 16:11:00 - 2021-11-11 16:12:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              28,5          27          30         1,5           2
-CardBrowserDataSource.loadCardActorsInfo                85,5          40         131        45,5           2
-LoadClass                                                4,3           0         123        20,3          88
-Messages.searchClasspath                                 0,0           0          44         0,5       18114
-Messages.searchFiles                                     0,0           0          42         0,3       18114
-Messages.searchRemotely                                  0,4           0          42         1,9        1102
-Scheduling.processTasks                                 48,0           6         339        52,9          60
-
-Performance Statistics   2021-11-11 16:12:00 - 2021-11-11 16:13:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 28,0           9         136        23,8          60
-
-Performance Statistics   2021-11-11 16:13:00 - 2021-11-11 16:14:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              16,0          16          16         0,0           1
-Scheduling.processTasks                                 32,9           7         213        36,8          60
-
-Performance Statistics   2021-11-11 16:14:00 - 2021-11-11 16:15:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 32,2          11         239        37,4          60
-
-Performance Statistics   2021-11-11 16:15:00 - 2021-11-11 16:16:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 25,4           7         152        27,4          60
-
-Performance Statistics   2021-11-11 16:16:00 - 2021-11-11 16:17:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              16,0          16          16         0,0           1
-Scheduling.processTasks                                 26,8           6          83        21,5          60
-
-Performance Statistics   2021-11-11 16:17:00 - 2021-11-11 16:18:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 25,6           5          79        18,3          60
-
-Performance Statistics   2021-11-11 16:18:00 - 2021-11-11 16:19:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Scheduling.processTasks                                 18,6           7          58         9,6          60
-
-Performance Statistics   2021-11-11 16:19:00 - 2021-11-11 16:20:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                              33,0          33          33         0,0           1
-LoadClass                                                0,0           0           0         0,0          23
-Messages.searchClasspath                                 0,0           0          13         0,3        8582
-Messages.searchFiles                                     0,0           0           8         0,1        8582
-Messages.searchRemotely                                  0,3           0          14         1,2         528
-Scheduling.processTasks                                 26,2           5         230        30,5          60
-Thesis:loadCalendarEvents                               23,0          23          23         0,0           1
-Thesis:loadCardDeadlineInfoTree                         11,0          11          11         0,0           1
-
-Performance Statistics   2021-11-11 16:29:00 - 2021-11-11 16:30:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,3           0          55         2,5         564
-Messages.searchFiles                                     0,1           0          34         1,4         564
-Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
-Scheduling.processTasks                                131,5          41         447       113,3          16
-ViewRepository.init.ExtViewRepositoryImpl               82,0          82          82         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
-
-Performance Statistics   2021-11-11 16:30:00 - 2021-11-11 16:31:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            4435,0        4435        4435         0,0           1
-LoadClass                                                0,1           0          26         0,8        3216
-Messages.searchClasspath                                 0,0           0          38         0,4       43047
-Messages.searchFiles                                     0,0           0          10         0,1       43047
-Messages.searchRemotely                                  0,6           0          98         2,6        2656
-Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           2
-Scheduling.processTasks                                 59,0          11         368        70,7          60
-SearchFolders                                           76,0          76          76         0,0           1
-Thesis:loadCalendarEvents                                7,0           7           7         0,0           1
-Thesis:loadCardDeadlineInfoTree                         21,0          21          21         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl            90,0          90          90         0,0           1
+Messages.searchClasspath                                 0,1           0          11         0,8         522
+Messages.searchFiles                                     0,0           0           0         0,0         522
+Metadata.replaceExtendedMetaClasses                      2,3           2           3         0,5           3
+Scheduling.processTasks                                131,7          26         767       144,3          30
+ViewRepository.init.ExtViewRepositoryImpl               85,0          85          85         0,0           1
 ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
 WebJARs                                                 14,0          14          14         0,0           1
 
-Performance Statistics   2021-11-11 17:19:00 - 2021-11-11 17:20:00
+Performance Statistics   2021-11-16 12:25:00 - 2021-11-16 12:26:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,1           0           8         0,6         298
-Messages.searchFiles                                     0,2           0          62         3,6         298
-Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
-Scheduling.processTasks                                145,3          41         604       168,6           9
-ViewRepository.init.ExtViewRepositoryImpl               96,0          96          96         0,0           1
-ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+Messages.searchClasspath                                 1,3           0          53         7,5          52
+Messages.searchFiles                                     0,0           0           0         0,0          52
+Scheduling.processTasks                                 88,3          17         498       102,0          60
 
-Performance Statistics   2021-11-11 17:26:00 - 2021-11-11 17:27:00
+Performance Statistics   2021-11-16 12:26:00 - 2021-11-16 12:27:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-Messages.searchClasspath                                 0,2           0          10         0,9         298
-Messages.searchFiles                                     0,1           0          38         2,2         298
-Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
-Scheduling.processTasks                                 86,4          41         228        52,6          10
-ViewRepository.init.ExtViewRepositoryImpl              115,0         115         115         0,0           1
+Scheduling.processTasks                                 51,7           8         247        47,0          60
+
+Performance Statistics   2021-11-16 12:27:00 - 2021-11-16 12:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 39,4           5         195        31,4          60
+
+Performance Statistics   2021-11-16 12:28:00 - 2021-11-16 12:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 39,3           9         230        36,0          60
+
+Performance Statistics   2021-11-16 12:29:00 - 2021-11-16 12:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 44,5          14         299        49,2          60
+
+Performance Statistics   2021-11-16 12:30:00 - 2021-11-16 12:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 35,3          10          91        23,0          60
+
+Performance Statistics   2021-11-16 12:31:00 - 2021-11-16 12:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,8           0         200        12,3         264
+Messages.searchFiles                                     0,0           0           0         0,0         264
+Messages.searchRemotely                                 14,2           0         207        49,8          16
+Scheduling.processTasks                                 43,3          15         157        34,9          60
+
+Performance Statistics   2021-11-16 12:32:00 - 2021-11-16 12:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                            2464,5          62        4867      2402,5           2
+CardBrowserDataSource.loadCardActorsInfo                57,0          57          57         0,0           1
+LoadClass                                                0,1           0          33         1,0        3212
+Messages.searchClasspath                                 0,0           0          28         0,3      107087
+Messages.searchFiles                                     0,0           0          25         0,1      107087
+Messages.searchRemotely                                  0,3           0          25         1,2        6663
+Scheduling.processTasks                                 40,8           7         148        30,3          60
+SearchFolders                                          171,0         171         171         0,0           1
+Thesis:loadCalendarEvents                               50,0          50          50         0,0           1
+Thesis:loadCardDeadlineInfoTree                         17,0          17          17         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           141,0         141         141         0,0           1
 ViewRepository.replaceOverridden                         0,1           0           1         0,3          21
 
-Performance Statistics   2021-11-11 17:27:00 - 2021-11-11 17:28:00
+Performance Statistics   2021-11-16 12:47:00 - 2021-11-16 12:48:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-AppFolders                                            4433,0        4433        4433         0,0           1
-LoadClass                                                0,1           0          26         0,7        3216
-Messages.searchClasspath                                 0,0           0          86         0,5       51935
-Messages.searchFiles                                     0,0           0           9         0,1       51935
-Messages.searchRemotely                                  0,6           0         506         9,1        3188
-Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
-Scheduling.processTasks                                 60,9          10         511        74,0          60
-SearchFolders                                           55,0          55          55         0,0           1
-Thesis:loadCalendarEvents                                4,0           4           4         0,0           1
-Thesis:loadCardDeadlineInfoTree                         31,0          31          31         0,0           1
-ViewRepository.init.ViewRepositoryClientImpl           146,0         146         146         0,0           1
+Messages.searchClasspath                                 0,1           0           9         0,7         276
+Messages.searchFiles                                     0,1           0          35         2,1         276
+Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
+
+Performance Statistics   2021-11-16 12:48:00 - 2021-11-16 12:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,1           0           1         0,3          18
+Messages.searchClasspath                                 0,2           0          13         0,9         389
+Messages.searchFiles                                     0,0           0           0         0,0         389
+Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           3
+Scheduling.processTasks                                 75,9          17         388        68,9          59
+ViewRepository.init.ExtViewRepositoryImpl               85,0          85          85         0,0           1
 ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+WebJARs                                                 14,0          14          14         0,0           1
+
+Performance Statistics   2021-11-16 12:49:00 - 2021-11-16 12:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                            2650,0          68        5232      2582,0           2
+CardBrowserDataSource.loadCardActorsInfo                64,0          64          64         0,0           1
+LoadClass                                                0,1           0          33         0,9        3212
+Messages.searchClasspath                                 0,0           0          41         0,3      115676
+Messages.searchFiles                                     0,0           0          22         0,1      115676
+Messages.searchRemotely                                  0,3           0          26         1,2        7191
+Scheduling.processTasks                                 47,5          10         389        57,1          60
+SearchFolders                                          126,0         126         126         0,0           1
+Thesis:loadCalendarEvents                                5,0           5           5         0,0           1
+Thesis:loadCardDeadlineInfoTree                         21,0          21          21         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           100,0         100         100         0,0           1
+ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+
+Performance Statistics   2021-11-16 12:59:00 - 2021-11-16 13:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,2           0          26         1,6         284
+Messages.searchFiles                                     0,1           0          35         2,1         284
+Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           2
+
+Performance Statistics   2021-11-16 13:00:00 - 2021-11-16 13:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                            4452,0        4452        4452         0,0           1
+LoadClass                                                0,1           0          14         0,6        3216
+Messages.searchClasspath                                 0,0           0          84         0,8       51948
+Messages.searchFiles                                     0,0           0          16         0,1       51948
+Messages.searchRemotely                                  0,6           0          87         2,5        3188
+Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
+Scheduling.processTasks                                 77,6          16         566        84,8          62
+SearchFolders                                           85,0          85          85         0,0           1
+Thesis:loadCalendarEvents                                6,0           6           6         0,0           1
+Thesis:loadCardDeadlineInfoTree                         24,0          24          24         0,0           1
+ViewRepository.init.ExtViewRepositoryImpl              111,0         111         111         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           105,0         105         105         0,0           1
+ViewRepository.replaceOverridden                         0,1           0           1         0,3          42
 WebJARs                                                 15,0          15          15         0,0           1
 
