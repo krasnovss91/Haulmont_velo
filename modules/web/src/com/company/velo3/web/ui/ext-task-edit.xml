@@ -23,20 +23,16 @@
                 </vbox>
             </hbox>
         </split>
-        <groupTable height="100px" width="100%">
-            <!--
+        <groupTable id="veloDetailsTable" height="250px" width="100%">
+
             <actions>
-                <action id="create"/>
-                <action id="remove"/>
+                <action id="add" type="add"/>
+                <action id="exclude" type="exclude"/>
             </actions>
-            -->
+
             <buttonsPanel>
-                <button id="add" caption="add"/>
-                <button id="exclude" caption="exclude"/>
-                <!--
-                <button id="add" caption="add" action="create"/>
-                <button id ="exclude" caption="exclude" action="remove"/>
-                -->
+                <button id="add" caption="add" action="veloDetailsTable.add"/>
+                <button id="exclude" caption="exclude" action="veloDetailsTable.exclude"/>
             </buttonsPanel>
             <rows datasource="veloDetailsDs"/>
         </groupTable>
