@@ -1,1 +1,0 @@
-delete from SEC_USER_ROLE where USER_ID = '608859871b61424794c7dff348347f93' and ROLE_NAME= 'system-full-access'^

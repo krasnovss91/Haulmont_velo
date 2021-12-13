@@ -1,1 +1,0 @@
-update SYS_FOLDER set NAME = 'SearchFolder_task.searchtasks' where NAME = 'SearchFolder_task.tasks'^

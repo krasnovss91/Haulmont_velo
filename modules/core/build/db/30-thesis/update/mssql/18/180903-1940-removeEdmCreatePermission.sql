@@ -1,1 +1,0 @@
-delete from sec_permission where target = 'ts$EdmSending:create'^

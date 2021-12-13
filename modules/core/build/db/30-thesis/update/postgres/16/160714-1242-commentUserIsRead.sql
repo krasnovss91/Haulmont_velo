@@ -1,1 +1,0 @@
-update WF_CARD_COMMENT_USER set IS_READ = true;

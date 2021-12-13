@@ -1,1 +1,0 @@
-alter table TS_OPERATOR_EDM add AFTER_INDEX_KEY varchar2(255 char)^

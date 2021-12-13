@@ -1,1 +1,0 @@
-alter table WF_PROC add column AVAILABLE_EDE_SESSION_TYPES varchar(500);

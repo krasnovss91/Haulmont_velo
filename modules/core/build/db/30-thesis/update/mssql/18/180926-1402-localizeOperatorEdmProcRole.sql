@@ -1,1 +1,0 @@
-update WF_PROC_ROLE set loc_name = '{"captionWithLanguageList":[{"language":"ru","caption":"Оператор ЭДО"},{"language":"en","caption":"Operator EDM"}]}' where code = 'OperatorEdm' and proc_id = (select id from WF_PROC where jbpm_process_key = 'Endorsement')^

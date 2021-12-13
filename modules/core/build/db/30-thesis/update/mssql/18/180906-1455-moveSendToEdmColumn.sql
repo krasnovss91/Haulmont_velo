@@ -1,1 +1,0 @@
-alter table DF_DOC drop column SEND_TO_EDM^

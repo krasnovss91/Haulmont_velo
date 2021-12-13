@@ -1,1 +1,0 @@
-update TM_SCHEDULE_ACTION set DISCRIMINATOR = '00' where DISCRIMINATOR is null^

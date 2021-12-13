@@ -1,1 +1,0 @@
-alter table DF_SIMPLE_DOC alter column ORDER_TEXT varchar(max)^

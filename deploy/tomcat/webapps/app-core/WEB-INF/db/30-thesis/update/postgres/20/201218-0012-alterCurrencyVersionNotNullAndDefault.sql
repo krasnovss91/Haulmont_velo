@@ -1,1 +1,0 @@
-alter table df_currency alter column version set not null, alter column version set default 1^

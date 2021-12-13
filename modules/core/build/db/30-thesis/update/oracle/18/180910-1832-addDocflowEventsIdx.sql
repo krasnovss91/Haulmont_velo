@@ -1,1 +1,0 @@
-alter table TS_OPERATOR_EDM add DOCFLOW_EVENTS_IDX varchar2(255 char)^

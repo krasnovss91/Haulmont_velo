@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
-    <include file="/velo3-screens.xml"/>
-    <screen id="tm$Task.browse" template="com/company/velo3/web/ui/ext-task-browse.xml"/>
-    <screen id="tm$Task.edit" template="com/company/velo3/web/ui/ext-task-edit.xml"/>
-</screen-config>

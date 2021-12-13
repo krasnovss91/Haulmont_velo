@@ -1,1 +1,0 @@
-select create_or_update_sec_permission('ReferenceEditor', 'df$Department:update', 20, 1)^

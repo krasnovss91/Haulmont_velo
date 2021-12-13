@@ -1,0 +1,1 @@
+drop table if exists VELO3_EXT_TASK__U31171 cascade ;

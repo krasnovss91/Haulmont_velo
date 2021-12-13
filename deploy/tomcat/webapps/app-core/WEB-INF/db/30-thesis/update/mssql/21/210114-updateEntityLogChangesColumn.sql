@@ -1,1 +1,0 @@
-update sec_entity_log set changes = '' where changes is null^

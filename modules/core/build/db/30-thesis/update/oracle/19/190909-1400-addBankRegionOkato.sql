@@ -1,1 +1,0 @@
-alter table DF_BANK_REGION add OKATO varchar2(9 char)^

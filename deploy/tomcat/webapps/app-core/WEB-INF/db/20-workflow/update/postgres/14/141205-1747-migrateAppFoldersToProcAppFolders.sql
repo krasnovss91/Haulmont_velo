@@ -1,1 +1,0 @@
-update SYS_FOLDER set folder_type='P' where folder_type='A'^

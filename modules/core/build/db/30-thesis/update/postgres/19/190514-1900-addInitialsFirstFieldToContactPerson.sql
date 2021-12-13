@@ -1,1 +1,0 @@
-alter table DF_CONTACT_PERSON add INITIALS_FIRST boolean^

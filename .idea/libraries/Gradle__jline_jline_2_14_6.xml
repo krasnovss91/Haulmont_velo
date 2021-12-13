@@ -2,8 +2,11 @@
   <library name="Gradle: jline:jline:2.14.6">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/jline/jline/2.14.6/jline-2.14.6.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/c3aeac59c022bdc497c8c48ed86fa50450e4896a/jline-2.14.6.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/e93dc55cf5b6f201e850ed339fa52e50d51105d5/jline-2.14.6-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -3,9 +3,7 @@ package com.company.velo3.entity;
 import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Table(name = "VELO3_VELO_DETAIL")
 @Entity(name = "velo3$VeloDetail")
@@ -21,6 +19,17 @@ public class VeloDetail extends StandardEntity {
 
     @Column(name = "AVAILABLE_FOR_ORDER")
     protected Boolean availableForOrder;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "EX_TASK_ID")
+    protected ExTask exTask;
+
+    public ExTask getExTask() {
+        return exTask;
+    }
+
+    public void setExTask(ExTask exTask) {
+        this.exTask = exTask;
+    }
 
     public Boolean getAvailableForOrder() {
         return availableForOrder;

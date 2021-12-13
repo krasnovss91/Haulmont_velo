@@ -1,1 +1,0 @@
-update WF_CARD_PROC set DTYPE = '10'^

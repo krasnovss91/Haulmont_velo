@@ -1,1 +1,0 @@
-alter table DF_EMPLOYEE add column NUMBER varchar(50)^

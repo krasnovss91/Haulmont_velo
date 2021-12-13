@@ -1,2 +1,0 @@
-UPDATE SYS_DB_CHANGELOG SET SCRIPT_NAME = REPLACE(SCRIPT_NAME, '190904-1943-addAfterIndexKeyToOperatorEdm.sql',
-                                          '180904-1943-addAfterIndexKeyToOperatorEdm.sql')^

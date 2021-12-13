@@ -1,1 +1,0 @@
-alter table tm_schedule_action alter column action_name type varchar(255)

@@ -1,4 +1,0 @@
--- $Id$
-
-drop index IDX_SUBSCR_CONTR_UNIQ^
-create unique index IDX_SUBSCR_BOX_OPERATOR_UNIQ on TS_SUBSCRIBER_EDM (BOX_ID, OPERATOR_EDM_ID) where DELETE_TS is null^

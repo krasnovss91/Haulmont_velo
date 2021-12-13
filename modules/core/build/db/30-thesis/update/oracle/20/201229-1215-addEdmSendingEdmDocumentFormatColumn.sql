@@ -1,1 +1,0 @@
-alter table TS_EDM_SENDING add EDM_DOC_FORMAT varchar2(255 char)^

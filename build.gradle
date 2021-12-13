@@ -37,6 +37,7 @@ cuba {
     tomcat {
         dir = "$project.rootDir/deploy/tomcat"
         version = '9.0.40'
+        port = '8081'
     }
     ide {
         copyright = '''Copyright (c) $today.year LTD Haulmont Samara. All Rights Reserved.
