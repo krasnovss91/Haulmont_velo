@@ -31,11 +31,11 @@ public class ExTask extends Task {
     }
 
     @MetaProperty
-    public Integer getTotalCost(){
-       // return amount * veloDetail.getCost();
+    public Integer getTotalCost() {
+        // return amount * veloDetail.getCost();
         List<Integer> costs = new ArrayList<>();
-        for (VeloDetail detail: veloDetail){
-            costs.add(detail.getCost());
+        for (VeloDetail detail : veloDetail) {
+           costs.add(detail.getCost());
         }
         return amount * (costs.stream().mapToInt(i -> i).sum());
     }

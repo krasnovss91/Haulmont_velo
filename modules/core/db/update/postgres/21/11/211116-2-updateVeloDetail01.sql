@@ -1,0 +1,2 @@
+alter table VELO3_VELO_DETAIL add constraint FK_VELO3_VELO_DETAIL_ON_EX_TASK foreign key (EX_TASK_ID) references VELO3_EX_TASK(TASK_ID);
+create index IDX_VELO3_VELO_DETAIL_ON_EX_TASK on VELO3_VELO_DETAIL (EX_TASK_ID);
