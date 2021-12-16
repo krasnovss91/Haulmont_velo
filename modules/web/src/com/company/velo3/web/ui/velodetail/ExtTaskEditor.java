@@ -25,7 +25,7 @@ public class ExtTaskEditor extends TaskEditor  {
         boolean b = super.validateAll();
         if (b) {
             if (veloDetailsDs.getItems().size() > 10) {
-                showOptionDialog("Внимание!","Не более 10 строк!",MessageType.CONFIRMATION, new Action[]{
+                showOptionDialog("Внимание!","У вас более 10 строк! Сохранить или отменить?",MessageType.CONFIRMATION, new Action[]{
                         new DialogAction(DialogAction.Type.YES,true){
                             @Override
                             public void actionPerform(Component component){

@@ -16,6 +16,20 @@
                 <tabSheet id="tabsheet">
                     <tab id="mainTab">
                         <groupBox id="taskInfoGroupBox"/>
+
+                        <groupTable id="veloDetailsTable" height="250px" width="100%">
+                            <rows datasource="veloDetailsDs"/>
+
+                            <actions>
+                                <action id="add" type="add"/>
+                                <action id="exclude" type="exclude"/>
+                            </actions>
+                            <buttonsPanel>
+                                <button id="add" caption="add" action="veloDetailsTable.add"/>
+                                <button id="exclude" caption="exclude" action="veloDetailsTable.exclude"/>
+                            </buttonsPanel>
+                        </groupTable>
+
                     </tab>
                     <groupBox stylename="edit-area" height="100%" width="100%">
                         <scrollBox scrollBars="both" margin="true">
@@ -36,18 +50,6 @@
                 </vbox>
             </hbox>
         </split>
-        <groupTable id="veloDetailsTable" height="250px" width="100%">
 
-            <actions>
-                <action id="add" type="add"/>
-                <action id="exclude" type="exclude"/>
-            </actions>
-
-            <buttonsPanel>
-                <button id="add" caption="add" action="veloDetailsTable.add"/>
-                <button id="exclude" caption="exclude" action="veloDetailsTable.exclude"/>
-            </buttonsPanel>
-            <rows datasource="veloDetailsDs"/>
-        </groupTable>
     </layout>
 </window>
