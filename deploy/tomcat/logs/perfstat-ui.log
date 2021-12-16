@@ -951,3 +951,73 @@ tm$Task.edit@taskGroupsDs                                4,8           4        
 tm$Task.edit@taskTypesDs                                 5,0           5           5         0,0           1
 tm$Task.edit@veloDetailsDs                               3,0           3           3         0,0           1
 
+Performance Statistics   2021-12-16 13:54:00 - 2021-12-16 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         22,0          22          22         0,0           1
+TDS null                                                53,0          53          53         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   6,0           6           6         0,0           1
+loginWindow#create                                     177,0         177         177         0,0           1
+loginWindow#init                                        43,0          43          43         0,0           1
+loginWindow#inject                                      64,0          64          64         0,0           1
+loginWindow#load                                       677,0         677         677         0,0           1
+loginWindow#uiPermissions                                3,0           3           3         0,0           1
+loginWindow#xml                                          5,5           0          11         5,5           2
+mainWindow#create                                       10,0          10          10         0,0           1
+mainWindow#init                                        209,0         209         209         0,0           1
+mainWindow#inject                                       14,0          14          14         0,0           1
+mainWindow#load                                       1621,0        1621        1621         0,0           1
+mainWindow#xml                                           1,5           0           3         1,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                   10,0          10          10         0,0           1
+mainWindow.voiceControlConsole#load                     35,0          35          35         0,0           1
+voiceControlConsole#create                              97,0          97          97         0,0           1
+voiceControlConsole#xml                                  2,0           2           2         0,0           1
+
+Performance Statistics   2021-12-16 13:56:00 - 2021-12-16 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.velo3$VeloDetail.browse                      2621,0        2621        2621         0,0           1
+mainWindow#afterShow                                     2,0           2           2         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+velo3$VeloDetail.browse#afterShow                        0,0           0           0         0,0           1
+velo3$VeloDetail.browse#beforeShow                      44,0          44          44         0,0           1
+velo3$VeloDetail.browse#create                          23,0          23          23         0,0           1
+velo3$VeloDetail.browse#init                             5,0           5           5         0,0           1
+velo3$VeloDetail.browse#inject                           0,0           0           0         0,0           1
+velo3$VeloDetail.browse#load                          1248,0        1248        1248         0,0           1
+velo3$VeloDetail.browse#uiPermissions                    0,0           0           0         0,0           1
+velo3$VeloDetail.browse#xml                              2,0           2           2         0,0           1
+
+Performance Statistics   2021-12-16 13:58:00 - 2021-12-16 14:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-16 14:00:00 - 2021-12-16 14:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-16 14:02:00 - 2021-12-16 14:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          8,0           8           8         0,0           1
+TDS null                                                 8,0           8           8         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   0,0           0           0         0,0           1
+loginWindow#create                                       0,0           0           0         0,0           1
+loginWindow#init                                         0,0           0           0         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                         1,0           1           1         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          4,5           0           9         4,5           2
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                        1,0           1           1         0,0           1
+mainWindow#init                                         20,0          20          20         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         48,0          48          48         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           0,5           0           1         0,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+voiceControlConsole#create                               2,0           2           2         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
