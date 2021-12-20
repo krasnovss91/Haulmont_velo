@@ -4,24 +4,10 @@
         extends="com/haulmont/thesis/web/ui/task/task-edit.xml">
     <dsContext>
 
-
-        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit">
-          <!--  <collectionDatasource id="veloDetailsDs" property="veloDetail"/>  -->
+        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-view_1">
             <groupDatasource id="veloDetailsDs" property="veloDetail"/>
         </datasource>
 
-
-    <!--    <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit"/> -->
-    <!--    <groupDatasource id="exTaskDs" class="com.company.velo3.entity.ExTask" view="edit"/>  -->
-        <!--так получаем пустую таблицу с задачами (не с деталями) -->
-      <!--  <groupDatasource id="veloDetailDs" class="com.company.velo3.entity.VeloDetail" view="veloDetail-view"/> -->
-<!--
-        <groupDatasource id="veloDetailsDs" class="com.company.velo3.entity.VeloDetail" view="_local">
-            <query>
-                <![CDATA[select e from velo3$VeloDetail e]]>
-            </query>
-        </groupDatasource>
-        -->
     </dsContext>
     <layout>
         <split id="split">
@@ -31,7 +17,7 @@
                         <groupBox id="taskInfoGroupBox"/>
 
                         <groupTable id="veloDetailsTable" height="250px" width="100%">
-                        <rows datasource="veloDetailsDs"/>
+                            <rows datasource="veloDetailsDs"/>
 
                             <actions>
                                 <action id="add" type="add"/>

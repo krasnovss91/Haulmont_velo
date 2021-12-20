@@ -5,7 +5,7 @@
     extends="browse"
     name="exTask-view">
         <property name="veloDetail"
-                  view="_minimal"/>
+                  view="_local"/>
     </view>
 
     <view class="com.company.velo3.entity.ExTask"
@@ -15,10 +15,15 @@
                   view="_local"/>
     </view>
 
+
     <view entity="velo3$ExTask" name="edit" extends="_local"/>
 
     <view entity="velo3$VeloDetail" name="veloDetail-view" extends="_local">
-        <property name="exTask" view="_minimal"/>
+        <property name="exTask" view="_local"/>
+    </view>
+
+    <view entity="velo3$ExTask" name="exTask-view_1" extends="edit">
+        <property name="veloDetail" view="veloDetail-view"/>
     </view>
 
 </views>
