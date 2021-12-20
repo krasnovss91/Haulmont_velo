@@ -958,3 +958,73 @@ mainWindow.voiceControlConsole#load                     36,0          36        
 voiceControlConsole#create                              93,0          93          93         0,0           1
 voiceControlConsole#xml                                  2,0           2           2         0,0           1
 
+Performance Statistics   2021-12-20 13:48:00 - 2021-12-20 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         22,0          22          22         0,0           1
+TDS null                                                57,0          57          57         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   5,0           5           5         0,0           1
+loginWindow#create                                     185,0         185         185         0,0           1
+loginWindow#init                                        40,0          40          40         0,0           1
+loginWindow#inject                                      65,0          65          65         0,0           1
+loginWindow#load                                       738,0         738         738         0,0           1
+loginWindow#uiPermissions                                3,0           3           3         0,0           1
+loginWindow#xml                                          6,0           0          12         6,0           2
+mainWindow#afterShow                                     2,0           2           2         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       11,0          11          11         0,0           1
+mainWindow#init                                        228,0         228         228         0,0           1
+mainWindow#inject                                       19,0          19          19         0,0           1
+mainWindow#load                                       1791,0        1791        1791         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           0           2         1,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                   10,0          10          10         0,0           1
+mainWindow.voiceControlConsole#load                     38,0          38          38         0,0           1
+voiceControlConsole#create                             107,0         107         107         0,0           1
+voiceControlConsole#xml                                  2,0           2           2         0,0           1
+
+Performance Statistics   2021-12-20 13:50:00 - 2021-12-20 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         12,0          12          12         0,0           1
+TDS null                                                13,0          13          13         0,0           1
+actionsFrame#create                                      3,0           0           6         3,0           2
+actionsFrame#xml                                         0,5           0           1         0,5           4
+cardAttachmentsFrame#create                             97,0           2         192        95,0           2
+cardAttachmentsFrame#xml                                 0,8           0           2         0,8           4
+cardCommentFrame#create                                 53,5          14          93        39,5           2
+cardCommentFrame#xml                                     1,3           0           2         0,8           4
+cardCommentTextAreaFrame#create                         40,5           4          77        36,5           2
+cardCommentTextAreaFrame#xml                             2,3           0           4         1,5           4
+cardProjectsFrame#create                                 1,5           1           2         0,5           2
+cardProjectsFrame#xml                                    2,8           0          10         4,2           4
+cardRelationsFrame#create                                1,0           1           1         0,0           2
+cardRelationsFrame#xml                                   0,8           0           2         0,8           4
+cardTreeFrame#create                                     2,0           1           3         1,0           2
+cardTreeFrame#xml                                        0,8           0           2         0,8           4
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                        2,0           2           2         0,0           1
+mainWindow#init                                         28,0          28          28         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         73,0          73          73         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           5,0           0          10         5,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+openHistoryFrame#create                                  0,5           0           1         0,5           2
+openHistoryFrame#xml                                     1,0           0           3         1,2           4
+runtimePropertiesFrame#xml                               0,8           0           2         0,8           4
+runtimePropertiesFrameMain#xml                           0,5           0           1         0,5           4
+runtimePropertiesFrameTab#xml                            0,0           0           0         0,0           4
+taskCardRolesFrame#create                               49,5           1          98        48,5           2
+taskCardRolesFrame#xml                                   2,0           0           7         2,9           4
+taskResolutionsFrame#create                              0,5           0           1         0,5           2
+taskResolutionsFrame#xml                                 0,8           0           2         0,8           4
+tm$Task.edit#create                                     14,0           0          28        14,0           2
+tm$Task.edit#xml                                         2,9           0          28         7,8          12
+tm$Task.edit.runtimePropertiesFrameMain#load             7,0           0          14         7,0           2
+voiceControlConsole#create                               2,0           2           2         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+

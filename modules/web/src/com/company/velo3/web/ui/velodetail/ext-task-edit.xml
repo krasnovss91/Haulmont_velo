@@ -6,7 +6,8 @@
 
 
         <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit">
-            <collectionDatasource id="veloDetailsDs" property="veloDetail"/>
+          <!--  <collectionDatasource id="veloDetailsDs" property="veloDetail"/>  -->
+            <groupDatasource id="veloDetailsDs" property="veloDetail"/>
         </datasource>
 
 
@@ -30,7 +31,7 @@
                         <groupBox id="taskInfoGroupBox"/>
 
                         <groupTable id="veloDetailsTable" height="250px" width="100%">
-                            <rows datasource="cardDs"/>
+                        <rows datasource="veloDetailsDs"/>
 
                             <actions>
                                 <action id="add" type="add"/>
