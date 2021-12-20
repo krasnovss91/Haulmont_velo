@@ -12,7 +12,13 @@
           extends="edit"
           name="exTask-edit">
         <property name="veloDetail"
-                  view="_minimal"/>
+                  view="_local"/>
+    </view>
+
+    <view entity="velo3$ExTask" name="edit" extends="_local"/>
+
+    <view entity="velo3$VeloDetail" name="veloDetail-view" extends="_local">
+        <property name="exTask" view="_minimal"/>
     </view>
 
 </views>

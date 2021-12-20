@@ -19,6 +19,7 @@ public class VeloDetail extends StandardEntity {
 
     @Column(name = "AVAILABLE_FOR_ORDER")
     protected Boolean availableForOrder;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "EX_TASK_ID")
     protected ExTask exTask;

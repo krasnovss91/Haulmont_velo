@@ -29,7 +29,7 @@ public class ExtTaskEditor extends TaskEditor  {
                         new DialogAction(DialogAction.Type.YES,true){
                             @Override
                             public void actionPerform(Component component){
-                                close(COMMIT_ACTION_ID);
+                              //  close(COMMIT_ACTION_ID);
                             }
                         },
                         new DialogAction(DialogAction.Type.NO){
