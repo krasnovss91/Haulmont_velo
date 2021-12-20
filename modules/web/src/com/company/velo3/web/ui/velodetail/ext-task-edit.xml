@@ -4,7 +4,7 @@
         extends="com/haulmont/thesis/web/ui/task/task-edit.xml">
     <dsContext>
 
-        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-view_1">
+        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-view">
             <groupDatasource id="veloDetailsDs" property="veloDetail"/>
         </datasource>
 
